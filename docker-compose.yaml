@@ -1,0 +1,7 @@
+services:
+  tgbot:
+    image: tgbot:latest
+    build: .
+    restart: "no"
+    ports:
+      - "8084:8084"
